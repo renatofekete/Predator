@@ -35,9 +35,9 @@ $(document).ready(function() {
 		var scroll;
 
 		if($(window).scrollTop()==0){
-			scroll =  ($target.offset().top) 
+			scroll =  ($target.offset().top); 
 		}else{
-			scroll =  ($target.offset().top) - 30
+			scroll =  ($target.offset().top) - 30;
 		}
 		$('html, body').stop().animate({
 			'scrollTop': scroll
